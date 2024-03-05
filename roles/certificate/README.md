@@ -156,6 +156,8 @@ For more information about Ansible Galaxy, go to https://galaxy.ansible.com/docs
 
    Defaults are defined in the [defaults/main.yml](defaults/main.yml) file.
 
+**Note:** The tasks within [roles/certificate/tasks](roles/certificate/tasks) can be changed or added upon to suit your use-case. By default, these tasks delegate work to your `localhost` which may not be suitable in certain cases.
+
 ## Preparing a Docker demo environment for running Ansible 
 
 1. For this demo, move to the root folder of this collection.
